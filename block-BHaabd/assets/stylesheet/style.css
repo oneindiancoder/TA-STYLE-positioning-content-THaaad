@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom CSS styles */
+
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: sans-serif;
+  background-color: #efefef;
+  padding: 16px 0 32px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  padding: 16px 24px 24px;
+  background-color: #fefefe;
+}
+
+img {
+  width: 100%;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h1,
+.article-heading,
+.quote {
+  font-family: serif;
+}
+
+.nav-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.article-heading {
+  font-size: 36px;
+}
+
+.quote {
+  font-size: 20px;
+}
+
+/* -----------------Layout--------------------- */
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+.col {
+  float: left;
+  /* border: 2px solid red; */
+  width: 30.33%;
+  margin: 0 1.5%;
+}
+
+.col-4-1 {
+  width: calc(25% - 4.5%);
+}
+
+.col-4-2 {
+  width: 50%;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: "";
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.aside,
+.nav {
+  margin-top: calc(16px + 32px);
+}
+
+.article-para {
+  margin-bottom: 16px;
+}
+
+.article-para:last-child {
+  margin-bottom: 0;
+}
+
+.indent {
+  margin: 32px 0;
+  padding-left: 32px;
+}
