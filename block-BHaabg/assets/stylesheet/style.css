@@ -242,11 +242,11 @@ img {
 
 /* Article */
 .article {
-  padding: 200px 0;
+  padding: 260px 0 100px;
 }
 
 /* gallery */
-.row {
+.gallery {
   font-size: 0;
 }
 
