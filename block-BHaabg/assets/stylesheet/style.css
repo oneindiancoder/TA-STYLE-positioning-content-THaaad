@@ -165,13 +165,8 @@ img {
 }
 
 /* Typography */
-
-.brand-name {
-  font-size: 40px;
-  text-decoration: none;
-  color: #212121;
-  line-height: 150px;
-  height: 150px;
+.header {
+  line-height: 140px;
 }
 
 .nav-link {
@@ -226,6 +221,8 @@ img {
   left: 0;
   right: 0;
   background-color: whitesmoke;
+  /* border: 2px solid red; */
+  padding: 20px 0;
 }
 
 .img-logo {
@@ -241,16 +238,6 @@ img {
 
 .nav-list {
   text-align: right;
-}
-
-.nav {
-  height: 150px;
-  line-height: 150px;
-  vertical-align: middle;
-}
-
-.brand-name {
-  vertical-align: middle;
 }
 
 /* Article */
