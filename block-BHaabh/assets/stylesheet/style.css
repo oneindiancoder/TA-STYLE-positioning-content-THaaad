@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Custom Code */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  padding: 0 16px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Generic styles */
+
+/* Typography */
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.blue-bg {
+  background-color: #5385c1;
+  color: #fff;
+}
+
+.blue-bg a {
+  color: white;
+}
+
+.blue-bg h2,
+.blue-bg h3 {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.white-bg .white-desc {
+  color: #707070;
+}
+
+.white-bg .subtext {
+  color: #707070;
+}
+
+.white-bg h2,
+.white-bg h3 {
+  color: #5385c1;
+}
+
+.white-bg .white-subtext {
+  color: #909090;
+}
+
+.white-bg .white-btn {
+  display: inline-block;
+  background-color: #5385c1;
+  color: #fff;
+  padding: 10px 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Layout */
+.col {
+  float: left;
+  margin: 3%;
+  /* border: 2px solid red; */
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: "";
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.col-1-3 {
+  width: 27.33%;
+}
+
+.col-1-2 {
+  width: 44%;
+}
+
+.col-1-4 {
+  width: 19%;
+}
+
+h1,
+h2,
+.subtext,
+.profile {
+  text-align: center;
+}
+
+.hero,
+.profiles,
+.articles {
+  padding: 120px 0;
+}
+
+/* ---------------------------Header---------------------------- */
+
+/* Typography */
+.header a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.brand-name {
+  font-weight: 700;
+}
+
+.nav-list-item {
+  display: inline-block;
+}
+
+/* Layout */
+
+.nav-list {
+  text-align: right;
+  /* border: 2px solid red; */
+}
+
+.nav-list-item {
+  margin-left: 12px;
+}
+
+.brand-name,
+.nav {
+  margin: 0;
+  height: 100px;
+  line-height: 100px;
+  /* border: 2px solid black; */
+}
+
+.header * {
+  /* border: 2px solid red; */
+}
+
+.nav {
+  text-align: right;
+}
+
+/* ---------------------------Hero---------------------------- */
+
+/* Typography */
+
+/* Layout */
+
+.hero {
+  padding: 100px 0 220px;
+}
+
+/* ---------------------------Articles---------------------------- */
+
+/* Typography */
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Layout */
+
+.articles img {
+  margin-bottom: 16px;
+}
+
+.articles h3 {
+  margin-bottom: 20px;
+}
+
+.articles p {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  margin-bottom: 24px;
+}
+/* ---------------------------Profiles---------------------------- */
+
+/*  Typography */
+.profile-title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Layout */
+.profile-img {
+  border-radius: 100%;
+}
+
+.profile {
+  border: 1px solid #c1c1c1;
+  padding: 40px 24px;
+}
+
+/* ---------------------------Footer---------------------------- */
+.social-icon {
+  color: #5385c1;
+}
+
+/* hr */
+hr {
+  height: 0;
+  display: block;
+  border: 1px solid #c1c1c1;
+  margin: 0;
+  padding: 0;
+}
